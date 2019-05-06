@@ -9,6 +9,11 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    
+    @IBOutlet var _textView: NSTextView!
+    
+    var _shellExecutor: ShellExecutor = ShellExecutor();
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,11 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func OnLogButton(_ sender: NSButton) {
+        NSLog("ViewController.OnLogButton()")
+        
+        let outputLog:String = _shellExecutor.Execute(command: "svn help log");
+        _textView.string = outputLog;
+    }
 }
 

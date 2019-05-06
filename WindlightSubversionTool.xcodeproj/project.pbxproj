@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B06D54F227EFB7100F3169A /* ShellExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B06D54E227EFB7100F3169A /* ShellExecutor.swift */; };
 		2B497894227EF2A8000C2918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B497893227EF2A8000C2918 /* AppDelegate.swift */; };
 		2B497896227EF2A8000C2918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B497895227EF2A8000C2918 /* ViewController.swift */; };
 		2B497898227EF2A9000C2918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B497897227EF2A9000C2918 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B06D54E227EFB7100F3169A /* ShellExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellExecutor.swift; sourceTree = "<group>"; };
 		2B497890227EF2A8000C2918 /* WindlightSubversionTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindlightSubversionTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B497893227EF2A8000C2918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B497895227EF2A8000C2918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				2B497899227EF2A9000C2918 /* Main.storyboard */,
 				2B49789C227EF2A9000C2918 /* Info.plist */,
 				2B49789D227EF2A9000C2918 /* WindlightSubversionTool.entitlements */,
+				2B06D54E227EFB7100F3169A /* ShellExecutor.swift */,
 			);
 			path = WindlightSubversionTool;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B06D54F227EFB7100F3169A /* ShellExecutor.swift in Sources */,
 				2B497896227EF2A8000C2918 /* ViewController.swift in Sources */,
 				2B497894227EF2A8000C2918 /* AppDelegate.swift in Sources */,
 			);
